@@ -1,41 +1,45 @@
 .grid-container {
     display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto;
-    padding: 15px;
-    margin-left: 25%;
-    margin-right: 25%;
+    /* grid-template-columns: auto auto auto auto auto auto auto; */
+    grid-template-rows: auto auto auto auto auto;
     margin-top: 100px;
     background-color: white;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: auto;
+    position: absolute;
 }
 .grid-item {
     margin: 5px;
-    border-radius: 10%;
+    border-radius: 10px;
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
-    width: 90%;
+    width: 100px;
     opacity: 1;
     transition: 0.5s ease;
 }
 .blue {
     background-color: rgb(66, 66, 255);
     color: white;
+    border: none;
 }
 .light-grey {
     background-color: rgb(190, 190, 190);
     color: black;
+    border: none;
 }
 .gray {
     background-color: rgb(160, 160, 160);
     color: black;
+    border: none;
 }
 .input {
-    grid-column: 1 / span 7;
-    margin-bottom: 100px;
-    height: 90%;
-    border-radius: 1%;
+    width: 100%;
+    margin-bottom: 50px;
+    border-radius: 10px;
     text-align: right;
-    font-size: 36pt;
+    font-size: 30px;
 }
 .grubo {
     font-weight: 1000;
@@ -50,7 +54,7 @@ body {
 }
 .border {
     border-style: solid;
-    border-radius: 1%;
+    border-radius: 10px;
     border-color: rgba(80, 80, 80, 0.5);
 }
 .rad {
@@ -62,7 +66,7 @@ body {
 }
 .deg {
     margin-left: -2px;
-    margin-right: 10px;
+    margin-right: 14px;
     border-left: 3px solid rgb(90, 90, 90);
     border-bottom-left-radius: 0%;
     border-top-left-radius: 0%;
